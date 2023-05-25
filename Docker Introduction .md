@@ -7,13 +7,18 @@
 Docker is a container technology where we can run our application using lightweight resources and we can wrap our entire application, build the image and will ship it to the environment in a container format. It is a lightweight resource to deploy your application.
 
 ## Difference between Virtual Machine and Docker Container
-Virtual Machine (VM)	Docker Container
-It takes huge resources to create a VM	It takes fewer resources
-Need to install Guest OS	No Need to install Guest OS
-Hardware Level Virtualization	OS level virtulization
-Boot time in Minutes	Boot time in Milliseconds
-Docker installation On EC2 (AWS)
-Go to EC2 Console and Launch Instance
+###      Virtual Machine (VM)	                       
+* It takes huge resources to create a VM
+* Need to install Guest OS	
+* Hardware Level Virtualization	
+* Boot time in Minutes	
+
+
+###   Docker Container
+* It takes fewer resources
+* No Need to install Guest OS
+* OS level virtulization
+* Boot time in Milliseconds
 
 ## Docker installation On EC2 (AWS)
 
@@ -28,33 +33,28 @@ Now the system is up to date. Let's install docker.
 
 ### 2. Docker installation
 
-sudo apt-get install docker.io
+       sudo apt-get install docker.io
 
 ### 3. Now check whether the docker service is active or not.
 
-systemctl status docker
+       systemctl status docker
 
 The docker installation is finished now. Let's understand docker commands.
 
 ## Docker Basic Commands
 
-docker -v 
-
-This command is used to see the version of a docker on your system.
-
-
-
-docker pull <image name>: It is used to pull the images from the docker registry or docker hub.(https://hub.docker.com/)
-
-e.g.docker pull ubuntu.
+#### docker -v :
+    This command is used to see the version of a docker on your system.
 
 
 
-docker images: It is used to see all the images stored on the local hub.
-
-
-
-docker run: It is used to run the container from the image
+#### docker pull <image name>: 
+    It is used to pull the images from the docker registry or docker hub.(https://hub.docker.com/)
+    e.g.docker pull ubuntu.
+       
+#### docker images:
+    It is used to see all the images stored on the local hub.
+#### docker run: It is used to run the container from the image
 
 -it ==> interactive mode
 
