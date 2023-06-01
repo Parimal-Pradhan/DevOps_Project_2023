@@ -33,42 +33,19 @@ LAMP (Linux, Apache, MySQL, PHP or Python, or Perl)
 ![img6](https://github.com/parimal007/DevOps_Project_2023/assets/86794999/06aa5216-27fb-41e8-8b1c-312fb125ac09)
 
 ### Once you are done with connecting copy the ssh command.
-
-e.g.ssh -i "<pemkey>" ubuntu@ec2-18-212-59-147.compute-1.amazonaws.com
-  
- ![img7](https://github.com/parimal007/DevOps_Project_2023/assets/86794999/2a63c22d-5b25-4282-a518-dec753a2ec90)
-  
+'''
+ssh -i "<pemkey" ubuntu@ec2-18-212-59-147.compute-1.amazonaws.com
+'''
 ### Go to Mobaxterm and paste the ssh command.
+### Update the system with the below command.
+## Installing Apache on Ubuntu
+### Now we have installed Ubuntu on AWS. Let's start installing Apache.
+### Now check whether the Apache service is running or not.
+### Now check if can we access our apache server locally with the curl command.
+### Now go to the AWS dashboard and Select Instance id.
+### Now copy Public ip and paste it into webrowser.
+### you can see we have successfully finished our task. Now our machine has Linux (ubuntu) and Apache. In the next blog, we will finish our remaining installation
 
-![img8](https://github.com/parimal007/DevOps_Project_2023/assets/86794999/c094d0a6-f687-452a-bd9d-e63108c3e87f)
-  
- ### Update the system with the below command.
-  
- # update a list of packages in package manager
-   sudo apt update
+Thank you for reading this blog.Happy Learning!!!!!
 
-![img9](https://github.com/parimal007/DevOps_Project_2023/assets/86794999/631b5391-740b-461b-80d0-e101823d628d)
-  
- # Installing Apache on Ubuntu
-
-  Copy and paste sudo apt install apache2
- 
-#run apache2 package installation
-sudo apt install apache2
-  
- ![img11](https://github.com/parimal007/DevOps_Project_2023/assets/86794999/ff0e1c7d-0b27-45e3-a726-db75264a676f)
-
-  Now check whether the Apache service is running or not.
-
-sudo systemctl status apache2
-  
-  ![img12](https://github.com/parimal007/DevOps_Project_2023/assets/86794999/aada3e92-1f1f-4811-b5d3-91aed603412c)
-  
-  Now check if can we access our apache server locally with the curl command.
-
-
-
-  
-
-  
-
+You can follow me on LinkedIn for my daily updates:- linkedin.com/in/parimal-pradhan-b62021168
