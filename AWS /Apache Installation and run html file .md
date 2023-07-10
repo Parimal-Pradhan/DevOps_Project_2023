@@ -43,41 +43,43 @@ Allow SSH , HTTP and HTTPS traffic from the internet
 
 ## Now CLI screen would be available.Type Below commands
 
-#### sudo su -
+    sudo su -
+    
 ### Check /var/www/html directory available or not
-#### ls /var/www/html/
+    ls /var/www/html/
 
 ![cliscreen](https://github.com/Parimal-Pradhan/DevOps_Project_2023/assets/86794999/3810237f-dbe6-4b54-a588-b9216fdc48e0)
 
 ## Update the System
 
-#### yum update -y
+   yum update -y
 
 ![update_system](https://github.com/Parimal-Pradhan/DevOps_Project_2023/assets/86794999/aee15314-d6e8-4a53-8371-3d6b703a1d3b)
 
 ## Install apache 
 
-#### yum install httpd -y
+   yum install httpd -y
 
 ![httpd_install](https://github.com/Parimal-Pradhan/DevOps_Project_2023/assets/86794999/f307135b-a956-43aa-8445-caa86fc85046)
 
 ## Copy Index.html code and paste it into /var/www/html/ 
 
-#### cd /var/www/html/
-#### vi index.html
+   cd /var/www/html/
+   vi index.html
 
 ![htmlcode](https://github.com/Parimal-Pradhan/DevOps_Project_2023/assets/86794999/cdc78f8c-32b9-48bb-8cd1-7f91ce383215)
 
 ![htmlandindex](https://github.com/Parimal-Pradhan/DevOps_Project_2023/assets/86794999/07508689-edbb-4ede-bff2-f2f8ed4c5f92)
 
 ## Check Apache service is running or not
-#### service httpd status
+   service httpd status
 
 ![service_disabled](https://github.com/Parimal-Pradhan/DevOps_Project_2023/assets/86794999/e1a34f77-318e-4290-b04e-7efc13dad312)
 
 
 ## Start the service 
-#### service httpd start
+
+   service httpd start
 
 ![service_running](https://github.com/Parimal-Pradhan/DevOps_Project_2023/assets/86794999/0bbff355-a648-4432-9735-14e5aa0294b3)
 
