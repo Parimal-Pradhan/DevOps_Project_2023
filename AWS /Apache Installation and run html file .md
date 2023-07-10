@@ -65,6 +65,7 @@ Allow SSH , HTTP and HTTPS traffic from the internet
 ## Copy Index.html code and paste it into /var/www/html/ 
 
    cd /var/www/html/
+   
    vi index.html
 
 ![htmlcode](https://github.com/Parimal-Pradhan/DevOps_Project_2023/assets/86794999/cdc78f8c-32b9-48bb-8cd1-7f91ce383215)
